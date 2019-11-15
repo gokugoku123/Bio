@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>My Contact Info</title>
+</head>
+
+<body>
+  <h3>My Contact Info</h3>
+  <p>
+    Gokul Sakthi.D <br>
+    Chettipalayam Palladam <br>
+    Tiruppur. <br>
+    Phone no : 9786451203
+  </p>
+  <hr>
+  <form class="" action="mailto:gokulcode234@gmail.com" method="post">
+    <label>Your Name :</label>
+    <input type="text" name="Your Name" value=""><br>
+    <label>Password :</label>
+    <input type="password" name="" value=""><br>
+    <label>Your Email: </label>
+    <input type="email" name="Your Email" value=""><br>
+    <label>What colour do you like ? : </label>
+    <input type="color" name="Color" value=""><br>
+    <label>Do you want to be on the mailing list? : </label>
+    <input type="checkbox" name="Check" value=""><br>
+    <label>Your Message : </label><br>
+    <textarea name="Message" rows="5" cols="50"></textarea><br>
+    <label>How would you rate us? : </label>
+    <input type="range" name="Range" value=""><br>
+    <label>Food you like ? : </label>
+    <input list="foods" name="Foods" value="">
+    <datalist id="foods">
+      <option value="Lemon"></option>
+      <option value="Biriyani"></option>
+      <option value="French Fries"></option>
+      <option value="Roasted Almonds"></option>
+    </datalist>
+    <label for="happiness">Happiness Meter: </label>
+    <meter value="50" min="1" max="100" low="35" high="70" optimum="60"></meter>
+    <fieldset>
+      <legend>What animal would you be..?</legend>
+      <input type="radio" name="animal" value="Dolphin">
+      <label for="">Dolphin</label>
+      <input type="radio" name="animal" value="Lion">
+      <label for="">Lion</label>
+      <input type="radio" name="animal" value="Dragon">
+      <label for="">Dragon</label><br>
+      <p>And what Would you rather be among any one of these:</p>
+      <label for="dino"></label>
+      <select class="" id="dino" name="">
+        <optgroup label="Theropods">
+          <option value="">Tyrannosaurus</option>
+          <option value="">Deinonychus</option>
+          <option value="">Velociraptor</option>
+        </optgroup>
+        <optgroup label="Sauropods">
+          <option value="">Diplodocus</option>
+          <option value="">Saltasaurus</option>
+          <option value="">Apatosaurus</option>
+        </optgroup>
+      </select>
+    </fieldset>
+    <input type="submit" name="" value="Submit">
+  </form>
+</body>
+
+</html>
